@@ -7,7 +7,7 @@ exports.quicksortfunc = function quickSort(arr) {
    rest.forEach(element => {
     element >= pivot ? right.push(element) : left.push(element) 
    })
-   console.log(quickSort(left).concat(pivot).concat(quickSort(right)))
+  // console.log(quickSort(left).concat(pivot).concat(quickSort(right)))
     return quickSort(left).concat(pivot).concat(quickSort(right))
 }
 
